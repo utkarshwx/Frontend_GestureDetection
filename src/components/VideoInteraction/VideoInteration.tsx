@@ -8,6 +8,7 @@ const VideoInteraction = () => {
   const [uploadProgress, setUploadProgress] = useState(0);
   const [videoPreviewUrl, setVideoPreviewUrl] = useState<string | null>(null);
   const [downloadUrl, setDownloadUrl] = useState<string | null>(null);
+  const [csvDownloadUrl, setCsvDownloadUrl] = useState<string | null>(null);
   const [isRecording, setIsRecording] = useState(false);
   const [mediaRecorder, setMediaRecorder] = useState<MediaRecorder | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -97,7 +98,8 @@ const VideoInteraction = () => {
       }
 
       const result = await response.json();
-      setDownloadUrl(result.downloadUrl);
+      setDownloadUrl(result.processed_csv_url);
+      setCsvDownloadUrl(result.processed_csv_url);
     } catch (error) {
       alert("Error uploading file: " + (error as Error).message);
     }
@@ -190,6 +192,17 @@ const VideoInteraction = () => {
                   download="Processed_video.mp4"
                 >
                   Download Processed Video
+                </a>
+              </div>
+            )}
+            {csvDownloadUrl && (
+              <div className="mt-4">
+                <a
+                  href={csvDownloadUrl}
+                  className="w-full bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center justify-center transition duration-150 ease-in-out"
+                  download="Processed_video.mp4"
+                >
+                  Download Processed Report
                 </a>
               </div>
             )}
