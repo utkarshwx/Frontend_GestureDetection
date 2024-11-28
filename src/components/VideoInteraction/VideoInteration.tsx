@@ -189,7 +189,7 @@ const VideoInteraction = () => {
                 <a
                   href={downloadUrl}
                   className="w-full bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center justify-center transition duration-150 ease-in-out"
-                  download="Processed_video.mp4"
+                  download
                 >
                   Download Processed Video
                 </a>
@@ -200,7 +200,7 @@ const VideoInteraction = () => {
                 <a
                   href={csvDownloadUrl}
                   className="w-full bg-white hover:bg-black text-black hover:text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline flex items-center justify-center transition duration-150 ease-in-out"
-                  download="Processed_video.mp4"
+                  download
                 >
                   Download Processed Report
                 </a>
