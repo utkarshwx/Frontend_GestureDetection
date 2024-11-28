@@ -66,11 +66,11 @@ export default function Home() {
             </Button>
           </div>
 
-          <a href='/videoupload'>
+          <Link to="/videoupload">
             <Button className="bg-[rgb(82,97,255)] hover:bg-[rgb(82,97,255)]/90 text-white rounded-full px-8 py-6">
-              GET STARTED
+                GET STARTED
             </Button>
-          </a>
+          </Link>
 
 
 
