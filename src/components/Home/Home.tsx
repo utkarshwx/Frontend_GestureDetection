@@ -6,11 +6,15 @@ import '../../Styles/feature-showcase.css'
 import '../../Styles/features-overview.css'
 import '../../Styles/call-to-action.css'
 import '../../Styles/footer.css'
+
+import { Link } from 'react-router-dom'
+
 import { FeatureShowcase } from "../FeatureShowcase"
 import { CallToAction } from "../CallToAction"
 import Button from '../../Style/Button'
 import { Footer } from '../../Layout/Footer/Footer'
 import Header from '../../Layout/Header/Header'
+
 
 export default function Home() {
   return (
