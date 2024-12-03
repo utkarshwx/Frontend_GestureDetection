@@ -13,11 +13,10 @@ export function Footer() {
             </address>
           </div>
           <div className="footer-contact">
-            <a href="tel:+14155552671">+91 xxxxxxxxxx</a>
+            <a href="tel:+14155552671">+91-9938684776</a>
             <a href="mailto:info@gestureai.com">webxthedev@gmail.com</a>
           </div>
           <div className="footer-social">
-            <a href="#">Twitter</a>
             <a href="#">GitHub</a>
           </div>
         </div>
