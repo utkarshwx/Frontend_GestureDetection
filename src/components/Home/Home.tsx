@@ -1,6 +1,4 @@
-
-import { ChevronDown } from 'lucide-react'
-
+// CSS files import
 import '../../Styles/main.css'
 import '../../Styles/feature-showcase.css'
 import '../../Styles/features-overview.css'
@@ -9,6 +7,7 @@ import '../../Styles/footer.css'
 
 import { Link } from 'react-router-dom'
 
+// Components Files import
 import { FeatureShowcase } from "../FeatureShowcase"
 import { CallToAction } from "../CallToAction"
 import Button from '../../Style/Button'
