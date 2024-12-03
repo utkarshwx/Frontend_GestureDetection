@@ -40,7 +40,6 @@ export default function Home() {
               <span className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[rgb(82,97,255)]" />
                 Hand Gesture Recognition
-                <ChevronDown className="h-4 w-4" />
               </span>
 
             </Button>
@@ -48,7 +47,6 @@ export default function Home() {
               <span className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[rgb(82,97,255)]" />
                 Facial Expression Analysis
-                <ChevronDown className="h-4 w-4" />
               </span>
 
             </Button>
@@ -56,7 +54,6 @@ export default function Home() {
               <span className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[rgb(82,97,255)]" />
                 Body Pose Estimation
-                <ChevronDown className="h-4 w-4" />
               </span>
 
             </Button>
@@ -64,7 +61,6 @@ export default function Home() {
               <span className="flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-[rgb(82,97,255)]" />
                 Real-time Motion Tracking
-                <ChevronDown className="h-4 w-4" />
               </span>
 
             </Button>
