@@ -2,7 +2,7 @@
 
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home/Home'
-import VideoInteration from './components/VideoInteraction/VideoInteration'
+import VideoInteraction from './components/VideoInteraction/VideoInteraction'
 
 export default function Component() {
   
@@ -12,7 +12,7 @@ export default function Component() {
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/videoupload" element={<VideoInteration />} />
+          <Route path="/videoupload" element={<VideoInteraction />} />
         </Routes>
       </div>
 
