@@ -85,15 +85,12 @@ export default function Home() {
           <div className="mt-16 grid grid-cols-3 gap-4">
             <GestureBubble
               gesture="Swipe right"
-              avatar="/placeholder.svg?height=40&width=40"
             />
             <GestureBubble
               gesture="Pinch to zoom"
-              avatar="/placeholder.svg?height=40&width=40"
             />
             <GestureBubble
               gesture="Two-finger rotate"
-              avatar="/placeholder.svg?height=40&width=40"
             />
           </div>
         </section>
