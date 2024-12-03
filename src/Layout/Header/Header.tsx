@@ -14,13 +14,7 @@ const Header = () => {
           </Link>
           <Link to="#contact" className="text-sm font-medium text-gray-300 hover:text-white">
             CONTACT
-          </Link>
-          <a href='/videoupload'>
-            <Button className="bg-white/10 hover:bg-white/20 text-white rounded-full px-6">
-              TRY DEMO
-            </Button>
-          </a>
-          
+          </Link>          
         </nav>
       </header>
     </div>
