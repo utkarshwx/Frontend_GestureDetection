@@ -9,13 +9,10 @@ export default function Component() {
 
   return (
     <>
-      <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/videoupload" element={<VideoInteraction />} />
         </Routes>
-      </div>
-
     </>
   )
 
